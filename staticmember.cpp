@@ -4,7 +4,7 @@ using namespace std;
 class Mahasiswa { //membuat class mahasiswa
 
 public:
-    stastic int nim; //deklarasi variabel stactic yaitu variable nim
+    static int nim; //deklarasi variabel stactic yaitu variable nim
     //deklarasi variable member
     int id;
     string nama;
@@ -29,7 +29,7 @@ void Mahasiswa::setID() {
 };
 
 void Mahasiswa::printAll() {
-    cout << "ID : " << id << endll;
+    cout << "ID : " << id << endl;
     cout << "Nama : " << nama << endl;
     cout << endl;
 };
@@ -39,7 +39,7 @@ int main() {
     Mahasiswa mhs1("Lia Kurnia");
     Mahasiswa mhs2("Asroni");
     Mahasiswa mhs3("Andi Kurniawan");
-    Mahasiswamhs4("joko purbo");
+    Mahasiswa mhs4("joko purbo");
 
     //memanggil prosedur priantAll()
     mhs1.printAll();
