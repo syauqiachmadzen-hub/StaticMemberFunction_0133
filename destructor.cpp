@@ -8,7 +8,7 @@ private:
     int panjang;
     
 public:
-    angkla(int); //constructor
+    angka(int); //constructor
     ~angka();    //destructor
     void cetakData();
     void isiData();    
@@ -39,7 +39,7 @@ void angka::isiData()
     for (int i = 1; i <= panjang; i++)
     {
         cout << i << " = ";
-        cin >> arr endl;
+        cin >> arr[i];
     }
     cout  << endl;
 }
