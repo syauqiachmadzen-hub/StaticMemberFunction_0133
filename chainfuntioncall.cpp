@@ -10,6 +10,15 @@ class buku{
     }
     string getJuduul(){
         return this->judul;
-        
     }
+
+};
+
+int main()
+{
+    buku bukunya;
+    //bukunya.setJudul("mattematika");
+    //cout << bukunya.getJudul();
+    cout<<bukunya.setJudul("Matematikka").getJudul();   //chain function calls
+    return 0;
 }
