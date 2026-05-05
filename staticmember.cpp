@@ -33,3 +33,14 @@ void Mahasiswa::printAll() {
     cout << "Nama : " << nama << endl;
     cout << endl;
 };
+
+int main() {
+    //membuat object dan memberi nilai
+    Mahasiswa mhs1("Lia Kurnia");
+    Mahasiswa mhs2("Asroni");
+    Mahasiswa mhs3("Andi Kurniawan");
+    Mahasiswamhs4("joko purbo");
+
+    //memanggil prosedur priantAll()
+    
+}
