@@ -20,3 +20,6 @@ public:
     }
 };
 
+void mahasiswa::priantAll() {
+    cout << *ID : * << id 
+}
