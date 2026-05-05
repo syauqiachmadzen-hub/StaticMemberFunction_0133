@@ -10,7 +10,10 @@ class mahasiswa{
     mahasiswa();
     mahasiswa(int);
     mahasiswa(string);
-    mahasiswa(int iNim, string iNim);
+    mahasiswa(int iNim, string iNama);
     void cetak();
 };
 
+mahasiswa :: mahasiswa() {
+    
+}
